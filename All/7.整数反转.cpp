@@ -12,7 +12,6 @@ class Solution {
 public:
     int reverse(int x) {
         int res = 0;
-
         while (x != 0) {
             // 判断整数溢出
             if (res < INT_MIN /10 || res > INT_MAX / 10) {
@@ -23,7 +22,6 @@ public:
             res = res * 10 + tmp;
             x /= 10;
         }
-        
         return res;
     }
 };
