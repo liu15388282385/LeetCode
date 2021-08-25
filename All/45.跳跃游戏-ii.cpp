@@ -16,13 +16,10 @@ public:
     int jump(vector<int>& nums) {
         int n = nums.size();
         int step = 0, end = 0, maxpos = 0;
-        for (int i = 0; i < n - 1; i++)
-        {
-            if (maxpos >= i)
-            {
+        for (int i = 0; i < n - 1; i++) {
+            if (maxpos >= i) {
                 maxpos = max(maxpos, nums[i] + i);
-                if (i == end)
-                {
+                if (i == end) {
                     end = maxpos;
                     ++step;
                 }
