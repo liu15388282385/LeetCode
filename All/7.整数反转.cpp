@@ -4,10 +4,9 @@
  * [7] 整数反转
  */
 
-// @lc code=start
 #include <iostream>
 using namespace std;
-
+// @lc code=start
 class Solution {
 public:
     int reverse(int x) {

@@ -4,11 +4,9 @@
  * [28] 实现 strStr()
  */
 
-// @lc code=start
-
 #include <string>
 using namespace std;
-
+// @lc code=start
 class Solution {
 public:
     int strStr(string haystack, string needle) {

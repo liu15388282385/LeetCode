@@ -4,11 +4,9 @@
  * [45] 跳跃游戏 II
  */
 
-// @lc code=start
-
 #include <vector>
 #include <math.h>
-
+// @lc code=start
 using namespace std;
 
 class Solution {
