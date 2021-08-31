@@ -3,12 +3,10 @@
  *
  * [45] 跳跃游戏 II
  */
-
 #include <vector>
 #include <math.h>
-// @lc code=start
 using namespace std;
-
+// @lc code=start
 class Solution {
 public:
     int jump(vector<int>& nums) {

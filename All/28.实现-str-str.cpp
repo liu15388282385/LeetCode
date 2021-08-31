@@ -3,7 +3,6 @@
  *
  * [28] 实现 strStr()
  */
-
 #include <string>
 using namespace std;
 // @lc code=start
