@@ -8,13 +8,12 @@
 #include <string>
 #include <iterator>
 #include <iostream>
-using namespace std;
 // @lc code=start
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
-        map<int ,int> hashtable;
-        vector<int> result;
+        std::map<int ,int> hashtable;
+        std::vector<int> result;
         for (int i = 0; i < nums.size(); i++) {
             auto it = hashtable.find(target - nums[i]);
             if (it != hashtable.end()) {
