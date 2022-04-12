@@ -13,7 +13,7 @@ public:
         for (int i = 0; i + m <= n; i++) {
             bool flag = true;
             for (int j = 0; j < m; j++) {
-                if (haystack[i+j] != needle[j]) {
+                if (haystack[i + j] != needle[j]) {
                     flag = false;
                     break;
                 }
@@ -26,4 +26,3 @@ public:
     }
 };
 // @lc code=end
-
