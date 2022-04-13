@@ -11,7 +11,7 @@
 // @lc code=start
 class Solution {
 public:
-    vector<int> twoSum(vector<int>& nums, int target) {
+    std::vector<int> twoSum(std::vector<int>& nums, int target) {
         std::map<int ,int> hashtable;
         std::vector<int> result;
         for (int i = 0; i < nums.size(); i++) {
