@@ -18,6 +18,7 @@ public:
             {
                 res.push_back(it->second);
                 res.push_back(i);
+                break;
             }
             hashtable[nums[i]] = i;
         }
