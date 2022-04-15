@@ -5,12 +5,13 @@
  */
 #include <map>
 #include <vector>
+using namespace std;
 // @lc code=start
 class Solution {
 public:
-    std::vector<int> twoSum(std::vector<int>& nums, int target) {
-        std::map<int, int> hashtable;
-        std::vector<int> res;
+    vector<int> twoSum(vector<int>& nums, int target) {
+        map<int, int> hashtable;
+        vector<int> res;
         for (int i = 0; i < nums.size(); i++)
         {
             auto it = hashtable.find(target - nums[i]);

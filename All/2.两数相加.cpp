@@ -4,6 +4,7 @@
  * [2] 两数相加
  */
 #include <iostream>
+using namespace std;
 struct ListNode {
     int val;
     ListNode *next;
