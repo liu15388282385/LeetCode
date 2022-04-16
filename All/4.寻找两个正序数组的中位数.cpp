@@ -11,7 +11,7 @@ public:
     double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
 
         int len = nums1.size() + nums2.size();
-        int k = len / 2 ;       // 不管总长度为奇数还是偶数,都只需要遍历到第int(len/2)+1的位置
+        int k = len / 2 ;       // 不管总长度为奇数还是偶数,中位数都在第int(len/2)+1的位置
         int p1 = 0, p2 = 0;     // 分别移动两个数组的指标
         int left = 0, right = 0;// 记录第k-1小和k小的两个数
 
