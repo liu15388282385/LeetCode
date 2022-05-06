@@ -1,0 +1,36 @@
+/*
+ * @Description: 
+ * @version: x.x
+ * @Author: LMH
+ * @Date: 2022-05-06 23:51:02
+ * @LastEditors: LMH
+ * @LastEditTime: 2022-05-06 23:51:03
+ */
+/*
+ * @lc app=leetcode.cn id=45 lang=cpp
+ *
+ * [45] 跳跃游戏 II
+ */
+#include <vector>
+#include <math.h>
+using namespace std;
+// @lc code=start
+class Solution {
+public:
+    int jump(vector<int>& nums) {
+        int n = nums.size();
+        int step = 0, end = 0, maxpos = 0;
+        for (int i = 0; i < n - 1; i++) {
+            if (maxpos >= i) {
+                maxpos = max(maxpos, nums[i] + i);
+                if (i == end) {
+                    end = maxpos;
+                    ++step;
+                }
+            }
+        }
+        return step;
+    }
+};
+// @lc code=end
+
