@@ -1,12 +1,4 @@
 /*
- * @Description: 
- * @version: x.x
- * @Author: LMH
- * @Date: 2022-05-06 23:51:02
- * @LastEditors: LMH
- * @LastEditTime: 2022-05-06 23:51:03
- */
-/*
  * @lc app=leetcode.cn id=45 lang=cpp
  *
  * [45] 跳跃游戏 II
